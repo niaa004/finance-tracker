@@ -1,17 +1,22 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div id="app" class="min-h-screen bg-gray-900 text-white">
+    <!-- NavBar-komponenten inkluderes globalt -->
+    <NavBar />
+
+    <!-- Sideinnhold håndteres av router -->
+    <div class="container mx-auto p-8">
+      <router-view />
+    </div>
   </div>
 </template>
 
 <script setup>
+import NavBar from "./components/NavBar.vue";
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>
