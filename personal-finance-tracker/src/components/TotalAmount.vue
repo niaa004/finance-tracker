@@ -9,6 +9,7 @@ const props = defineProps({
   },
 });
 
+
 const totalIncome = computed(() => {
   return props.transactions
     .filter((t) => t.type === "income")
@@ -20,6 +21,10 @@ const totalExpense = computed(() => {
     .filter((t) => t.type === "expense")
     .reduce((sum, t) => sum + t.amount, 0);
 });
+
+const removeInput = computed(() => {
+  
+})
 
 const netTotal = computed(() => totalIncome.value - totalExpense.value);
 </script>

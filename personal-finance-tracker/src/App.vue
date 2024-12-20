@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="min-h-screen bg-gray-900 text-white">
-    <!-- NavBar-komponenten inkluderes globalt -->
-    <NavBar />
-
+  <div id="app" class="min-h-screen transition-all" :class="{ 'dark': isDarkMode }">
+    <!-- Navbar -->
+    <NavBar :isDarkMode="isDarkMode" />
+    
     <!-- Sideinnhold håndteres av router -->
     <div class="container mx-auto p-8">
       <router-view />

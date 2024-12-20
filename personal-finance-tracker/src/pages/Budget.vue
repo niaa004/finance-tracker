@@ -1,7 +1,7 @@
 <template>
   <div class="p-8">
-    <h1 class="text-3xl font-bold text-gray-700 mb-6">Budsjett</h1>
-    <p class="text-gray-600 mb-6">Sett opp et månedlig budsjett for ulike kategorier.</p>
+    <h1 class="text-3xl font-bold mb-6">Budsjett</h1>
+    <p class="mb-6">Sett opp et månedlig budsjett for ulike kategorier.</p>
 
     <!-- Budsjettoversikt -->
     <div 
