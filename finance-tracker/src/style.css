@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #ffffff; /* Light mode */
+  --text-color: #333333;
+}
+
+[data-theme='dark'] {
+  --background-color: #1f2937; /* Dark mode */
+  --text-color: #f9fafb;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all;
+}
+
+body[data-theme='dark'] button {
+  @apply bg-gray-800 hover:bg-gray-700 text-gray-300;
+}
+
+
+a {
+  @apply font-medium text-blue-600 hover:text-blue-700 transition-all dark:text-blue-400 dark:hover:text-blue-300;
+}
+
+h1 {
+  @apply text-4xl font-bold mb-4;
+}
+
+
+.card {
+  @apply p-6 bg-white shadow-lg rounded-lg dark:bg-gray-800;
+}
+
+input, select, textarea {
+  @apply text-black placeholder-gray-400;
+}
+
+/* Tekst i input i dark mode */
+body[data-theme='dark'] input,
+body[data-theme='dark'] select,
+body[data-theme='dark'] textarea {
+  @apply text-white placeholder-gray-500 border-gray-600;
+}
+
+/* Kantlinje for input i mørk modus */
+body[data-theme='dark'] input:focus,
+body[data-theme='dark'] select:focus,
+body[data-theme='dark'] textarea:focus {
+  @apply border-blue-500 outline-none;
+}
+
+
+
+#app {
+  @apply max-w-5xl mx-auto px-4 py-6;
+}
