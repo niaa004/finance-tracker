@@ -85,11 +85,11 @@ It provides a **clean, user-friendly interface** to manage **income, expenses, a
 
 ---
 
-## 📈 Future Enhancements
+## 📈 Future Enhancements 
 **Expense categorization** (e.g., Food, Rent, Entertainment).  
 **Local storage support** to persist transaction data.  
 **Interactive graphs & charts** for a better financial overview.  
-**Multi-language support** to enhance accessibility.  
+**Multi-language & valuta support** to enhance accessibility.  
 
 ---
 
