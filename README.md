@@ -9,33 +9,29 @@
 ## Project Structure
 ``` 
  finance-tracker
-├──  src (Source code)
-│   ├──  assets (Images, fonts, etc.)
-│   ├──  components (Reusable UI components)
-│   │   ├──  AddTransaction.vue
-│   │   ├──  CurrencyToggle.vue
-│   │   ├──  NavBar.vue
-│   │   ├──  Summary.vue
-│   │   ├──  ThemeToggle.vue
-│   │   ├──  TotalAmount.vue
-│   │   ├──  TransactionList.vue
-│   │
-│   ├──  pages (Main views/pages of the app)
-│   │   ├──  About.vue
-│   │   ├──  Budget.vue
-│   │   ├──  Dashboard.vue
-│   │   ├──  Home.vue
-│   │   ├──  Reports.vue
-│   │   ├──  Settings.vue
-│   │
-│   ├──  router (Application routing)
-│   │   ├──  index.js
-│   │
-│   ├──  App.vue (Root component)
-│   ├──  main.js (Entry point)
-│
-├──  index.html (Main HTML file)
-├──  style.css (Global styles)
+─ src 
+   ─ assets 
+   ─ components 
+      ─ AddTransaction.vue
+      ─ CurrencyToggle.vue
+      ─ NavBar.vue
+      ─ Summary.vue
+      ─ ThemeToggle.vue
+      ─ TotalAmount.vue
+      ─ TransactionList.vue
+   ─ pages 
+      ─ About.vue
+      ─ Budget.vue
+      ─ Dashboard.vue
+      ─ Home.vue
+      ─ Reports.vue
+      ─ Settings.vue
+   ─ router 
+      ─ index.js
+   ─ App.vue 
+   ─ main.js
+ index.html 
+ style.css 
 ``` 
 
 
