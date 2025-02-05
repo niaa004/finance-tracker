@@ -40,8 +40,8 @@ Interactive Dashboard
 - Displays total balance, income, and expenses dynamically.
 - Updates automatically as transactions are added.
 
-Transaction Management**
-- Users can **add, edit, and delete transactions** in real-time.
+Transaction Management
+- Users can add, edit, and delete transactions in real-time.
 - Transactions are categorized for better financial insights.
 
 Budget Tracking
