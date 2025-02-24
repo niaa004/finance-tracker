@@ -41,6 +41,7 @@
   ]);
   </script>
   
+  <!-- css / tailwind -->
   <style scoped>
   h1, h2 {
     line-height: 1.4;

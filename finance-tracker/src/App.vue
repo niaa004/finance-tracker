@@ -14,6 +14,7 @@
 import NavBar from "./components/NavBar.vue";
 </script>
 
+<!-- css / tailwind -->
 <style scoped>
 .container {
   max-width: 1200px;

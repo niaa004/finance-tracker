@@ -14,6 +14,8 @@
     <script setup>
     </script>
     
+
+    <!-- css / tailwind -->
     <style scoped>
   
     h1 {

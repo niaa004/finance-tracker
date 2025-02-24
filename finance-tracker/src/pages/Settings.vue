@@ -14,7 +14,7 @@
   </div>
   
       <!-- Tema -->
-      
+    
       <div class="mb-6">
         <label class="block mb-2">Velg tema:</label>
         <button 
@@ -45,6 +45,8 @@
     document.documentElement.setAttribute("data-theme", savedTheme);
   });
   </script>
+  
+  <!--css / tailwind-->
   
   <style scoped>
   button {
